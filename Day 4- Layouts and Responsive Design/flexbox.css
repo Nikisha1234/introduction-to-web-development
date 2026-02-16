@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 16px;
+    align-items: center;
+    height: 100vh;
+}
+.box{
+    /*flex: 1;*/
+    width: 200px;
+    height: 200px;
+    background-color: lightblue;
+}
+
+.container :nth-child(even){
+    background-color: brown;
+}
