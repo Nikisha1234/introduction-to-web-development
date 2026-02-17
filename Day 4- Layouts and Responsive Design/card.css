@@ -1,4 +1,4 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -22,12 +22,12 @@ body {
   border: 1px solid white;
   padding: 24px;
   text-align: center;
-  
+
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.card section{
+.card section {
   width: 100%;
 }
 .detail {
@@ -42,7 +42,6 @@ body {
   padding: 12px 0;
   width: 100%;
 }
-
 
 .profile-img-container {
   width: 100%;
@@ -64,7 +63,7 @@ h2 {
 }
 .footer {
   display: flex;
-  justify-content: center;  /* horizontal center */
-  align-items: center;      /* vertical center */
+  justify-content: center;
+  align-items: center;
   margin-top: 16px;
 }
